@@ -27,8 +27,7 @@ The notebook experiments with several regression algorithms:
 - Random Forest Regression  
 - Gradient Boosting (XGBoost, LightGBM, CatBoost)  
 - K-Nearest Neighbors  
-- Logistic Regression (for categorical transformation if used)  
-- Naive Bayes (for comparison in some preprocessing tasks)
+- Logistic Regression
 
 Each model is evaluated using:
 - **Mean Squared Error (MSE)**
@@ -40,7 +39,7 @@ Each model is evaluated using:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/house-price-prediction.git
+git clone https://github.com/abdalla-abuelhadid/house-price-prediction.git
 cd house-price-prediction
 pip install -r requirements.txt
 ```
